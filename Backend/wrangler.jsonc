@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "silica-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-13",
+  "workers_dev": true,
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "vars": {
+    "PUBLIC_WEB_ORIGIN": "http://localhost:3000",
+    "NOTION_CLIENT_ID": "replace-with-notion-client-id",
+    "NOTION_REDIRECT_URI": "http://localhost:8787/api/silica/notion/callback",
+    "ALLOWED_ORIGINS": "http://localhost:3000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "silica-notion-auth-db",
+      "database_id": "replace-with-d1-database-id",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "secrets": {
+    "required": [
+      "NOTION_CLIENT_SECRET",
+      "TOKEN_ENCRYPTION_KEY",
+      "DISCORD_WEBHOOK_URL"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Silica records stays in the background so your daily location log can be saved locally.";
+"NSLocationWhenInUseUsageDescription" = "Silica uses your location to record where you stayed.";
+"NSMotionUsageDescription" = "Silica uses motion history to distinguish stays from pass-through movement and summarize travel.";
+"NSFaceIDUsageDescription" = "Silica uses Face ID to protect your private location history.";
+"NSPhotoLibraryAddUsageDescription" = "Silica saves your customized Pro card artwork to your photo library.";

@@ -1,0 +1,5 @@
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "毎日の滞在履歴を端末内に記録するため、バックグラウンドで位置情報を使用します。";
+"NSLocationWhenInUseUsageDescription" = "訪れた場所を記録するために位置情報を使用します。";
+"NSMotionUsageDescription" = "滞在と通過を見分け、移動方法を表示するために、モーション履歴を使用します。";
+"NSFaceIDUsageDescription" = "非公開の位置履歴を保護するためにFace IDを使用します。";
+"NSPhotoLibraryAddUsageDescription" = "カスタマイズしたSilica Proカードの画像を写真ライブラリに保存します。";

@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100000000000000000001 /* SilicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000001 /* SilicaApp.swift */; };
+		A00100000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000002 /* RootView.swift */; };
+		A00100000000000000000003 /* StayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000003 /* StayEntity.swift */; };
+		A00100000000000000000004 /* PlaceAliasEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000004 /* PlaceAliasEntity.swift */; };
+		A00100000000000000000005 /* ExportRecordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000005 /* ExportRecordEntity.swift */; };
+		A00100000000000000000006 /* CoreMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000006 /* CoreMapping.swift */; };
+		A00100000000000000000007 /* DateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000007 /* DateSupport.swift */; };
+		A00100000000000000000008 /* LocationFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000008 /* LocationFormatter.swift */; };
+		A00100000000000000000032 /* AppDataProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000032 /* AppDataProtection.swift */; };
+		A00100000000000000000033 /* MovementPointEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000033 /* MovementPointEntity.swift */; };
+		A00100000000000000000034 /* MovementSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000034 /* MovementSummary.swift */; };
+		A00100000000000000000035 /* MotionActivityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000035 /* MotionActivityStore.swift */; };
+		A00100000000000000000037 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000039 /* AppLanguage.swift */; };
+		A00100000000000000000009 /* LocationRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000009 /* LocationRecorder.swift */; };
+		A00100000000000000000010 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000010 /* TodayView.swift */; };
+		A00100000000000000000011 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000011 /* LocationMapView.swift */; };
+		A00100000000000000000012 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000012 /* PlacesView.swift */; };
+		A00100000000000000000013 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000013 /* ExportView.swift */; };
+		A00100000000000000000014 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000014 /* SettingsView.swift */; };
+		A00100000000000000000040 /* SilicaWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000040 /* SilicaWelcomeView.swift */; };
+		A00100000000000000000030 /* DatePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000030 /* DatePickerSheet.swift */; };
+		A00100000000000000000031 /* StayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000031 /* StayDetailView.swift */; };
+		A00100000000000000000015 /* GeoCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000015 /* GeoCoordinate.swift */; };
+		A00100000000000000000016 /* LocationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000016 /* LocationSource.swift */; };
+		A00100000000000000000017 /* PlaceConfidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000017 /* PlaceConfidence.swift */; };
+		A00100000000000000000018 /* StayRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000018 /* StayRecord.swift */; };
+		A00100000000000000000020 /* GeoDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000020 /* GeoDistance.swift */; };
+		A00100000000000000000023 /* MarkdownLocationExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000023 /* MarkdownLocationExporter.swift */; };
+		A00100000000000000000026 /* StayResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000026 /* StayResolution.swift */; };
+		A00100000000000000000027 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000027 /* ExportService.swift */; };
+		A00100000000000000000028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000028 /* LaunchScreen.storyboard */; };
+		A00100000000000000000029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000029 /* Assets.xcassets */; };
+		A00100000000000000000036 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000036 /* Localizable.strings */; };
+		A00100000000000000000041 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = C00200000000000000000001 /* RevenueCat */; };
+		A00100000000000000000042 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = C00200000000000000000002 /* RevenueCatUI */; };
+		A00100000000000000000043 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000041 /* SubscriptionManager.swift */; };
+		A00100000000000000000044 /* SilicaRevenueCatPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000042 /* SilicaRevenueCatPaywallView.swift */; };
+		A00100000000000000000045 /* SubscriptionManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000043 /* SubscriptionManagementView.swift */; };
+		A00100000000000000000046 /* SilicaPolishedAluminum.metal in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000044 /* SilicaPolishedAluminum.metal */; };
+		A00100000000000000000047 /* SubscriptionAccessPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000045 /* SubscriptionAccessPolicy.swift */; };
+		A00100000000000000000048 /* SWConfetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000046 /* SWConfetti.swift */; };
+		A00100000000000000000049 /* privacy-policy.md in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000049 /* privacy-policy.md */; };
+		A00100000000000000000050 /* terms-of-use.md in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000050 /* terms-of-use.md */; };
+		A00100000000000000000051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000051 /* InfoPlist.strings */; };
+		A00100000000000000000052 /* ShipSwiftCardStudioBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000054 /* ShipSwiftCardStudioBackgrounds.swift */; };
+		A00100000000000000000053 /* ShipSwiftCardStudioBackgrounds.metal in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000055 /* ShipSwiftCardStudioBackgrounds.metal */; };
+		A00100000000000000000056 /* SilicaNotionIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000056 /* SilicaNotionIntegration.swift */; };
+		A00100000000000000000057 /* privacy-policy-en.md in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000057 /* privacy-policy-en.md */; };
+		A00100000000000000000058 /* terms-of-use-en.md in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000058 /* terms-of-use-en.md */; };
+		A00100000000000000000059 /* SilicaNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000059 /* SilicaNotificationService.swift */; };
+		A00100000000000000000060 /* PlaceCandidatePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000060 /* PlaceCandidatePolicy.swift */; };
+		A00100000000000000000061 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000061 /* PrivacyInfo.xcprivacy */; };
+		A00100000000000000000062 /* MapEdgeZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000062 /* MapEdgeZoom.swift */; };
+		A00100000000000000000063 /* PermissionStatusText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000063 /* PermissionStatusText.swift */; };
+		B00100000000000000000001 /* LogTimelineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00200000000000000000001 /* LogTimelineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00200000000000000000001 /* SilicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilicaApp.swift; sourceTree = "<group>"; };
+		A00200000000000000000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A00200000000000000000003 /* StayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayEntity.swift; sourceTree = "<group>"; };
+		A00200000000000000000004 /* PlaceAliasEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAliasEntity.swift; sourceTree = "<group>"; };
+		A00200000000000000000005 /* ExportRecordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportRecordEntity.swift; sourceTree = "<group>"; };
+		A00200000000000000000006 /* CoreMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMapping.swift; sourceTree = "<group>"; };
+		A00200000000000000000007 /* DateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSupport.swift; sourceTree = "<group>"; };
+		A00200000000000000000008 /* LocationFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFormatter.swift; sourceTree = "<group>"; };
+		A00200000000000000000032 /* AppDataProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataProtection.swift; sourceTree = "<group>"; };
+		A00200000000000000000033 /* MovementPointEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementPointEntity.swift; sourceTree = "<group>"; };
+		A00200000000000000000034 /* MovementSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementSummary.swift; sourceTree = "<group>"; };
+		A00200000000000000000035 /* MotionActivityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionActivityStore.swift; sourceTree = "<group>"; };
+		A00200000000000000000039 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		A00200000000000000000009 /* LocationRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRecorder.swift; sourceTree = "<group>"; };
+		A00200000000000000000010 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A00200000000000000000011 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		A00200000000000000000012 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		A00200000000000000000013 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		A00200000000000000000014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00200000000000000000030 /* DatePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSheet.swift; sourceTree = "<group>"; };
+		A00200000000000000000031 /* StayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayDetailView.swift; sourceTree = "<group>"; };
+		A00200000000000000000015 /* GeoCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCoordinate.swift; sourceTree = "<group>"; };
+		A00200000000000000000016 /* LocationSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSource.swift; sourceTree = "<group>"; };
+		A00200000000000000000017 /* PlaceConfidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceConfidence.swift; sourceTree = "<group>"; };
+		A00200000000000000000018 /* StayRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayRecord.swift; sourceTree = "<group>"; };
+		A00200000000000000000020 /* GeoDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDistance.swift; sourceTree = "<group>"; };
+		A00200000000000000000060 /* PlaceCandidatePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCandidatePolicy.swift; sourceTree = "<group>"; };
+		A00200000000000000000023 /* MarkdownLocationExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownLocationExporter.swift; sourceTree = "<group>"; };
+		A00200000000000000000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00200000000000000000025 /* Silica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200000000000000000026 /* StayResolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayResolution.swift; sourceTree = "<group>"; };
+		A00200000000000000000027 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		A00200000000000000000028 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00200000000000000000029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00200000000000000000037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A00200000000000000000038 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A00200000000000000000040 /* SilicaWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilicaWelcomeView.swift; sourceTree = "<group>"; };
+		A00200000000000000000041 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		A00200000000000000000042 /* SilicaRevenueCatPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilicaRevenueCatPaywallView.swift; sourceTree = "<group>"; };
+		A00200000000000000000043 /* SubscriptionManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManagementView.swift; sourceTree = "<group>"; };
+		A00200000000000000000044 /* SilicaPolishedAluminum.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SilicaPolishedAluminum.metal; sourceTree = "<group>"; };
+		A00200000000000000000045 /* SubscriptionAccessPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionAccessPolicy.swift; sourceTree = "<group>"; };
+		A00200000000000000000046 /* SWConfetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWConfetti.swift; sourceTree = "<group>"; };
+		A00200000000000000000049 /* privacy-policy.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = privacy-policy.md; sourceTree = "<group>"; };
+		A00200000000000000000050 /* terms-of-use.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = terms-of-use.md; sourceTree = "<group>"; };
+		A00200000000000000000052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00200000000000000000053 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00200000000000000000054 /* ShipSwiftCardStudioBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipSwiftCardStudioBackgrounds.swift; sourceTree = "<group>"; };
+		A00200000000000000000055 /* ShipSwiftCardStudioBackgrounds.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ShipSwiftCardStudioBackgrounds.metal; sourceTree = "<group>"; };
+		A00200000000000000000056 /* SilicaNotionIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilicaNotionIntegration.swift; sourceTree = "<group>"; };
+		A00200000000000000000057 /* privacy-policy-en.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = privacy-policy-en.md; sourceTree = "<group>"; };
+		A00200000000000000000058 /* terms-of-use-en.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = terms-of-use-en.md; sourceTree = "<group>"; };
+		A00200000000000000000059 /* SilicaNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilicaNotificationService.swift; sourceTree = "<group>"; };
+		A00200000000000000000061 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A00200000000000000000062 /* MapEdgeZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEdgeZoom.swift; sourceTree = "<group>"; };
+		A00200000000000000000063 /* PermissionStatusText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatusText.swift; sourceTree = "<group>"; };
+		B00200000000000000000001 /* LogTimelineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTimelineUITests.swift; sourceTree = "<group>"; };
+		B00200000000000000000002 /* SilicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000041 /* RevenueCat in Frameworks */,
+				A00100000000000000000042 /* RevenueCatUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00400000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000002 /* SilicaApp */,
+				A00400000000000000000008 /* Sources */,
+				A00400000000000000000013 /* LegalDocuments */,
+				B00400000000000000000001 /* SilicaUITests */,
+				A00400000000000000000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00400000000000000000002 /* SilicaApp */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000001 /* SilicaApp.swift */,
+				A00200000000000000000002 /* RootView.swift */,
+				A00400000000000000000003 /* Models */,
+				A00400000000000000000004 /* Support */,
+				A00400000000000000000005 /* Location */,
+				A00400000000000000000011 /* Export */,
+				A00400000000000000000006 /* Views */,
+				A00400000000000000000012 /* Subscriptions */,
+				A00200000000000000000029 /* Assets.xcassets */,
+				A00200000000000000000028 /* LaunchScreen.storyboard */,
+				A00200000000000000000024 /* Info.plist */,
+				A00200000000000000000061 /* PrivacyInfo.xcprivacy */,
+				A00200000000000000000036 /* Localizable.strings */,
+				A00200000000000000000051 /* InfoPlist.strings */,
+			);
+			path = SilicaApp;
+			sourceTree = "<group>";
+		};
+		A00200000000000000000036 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00200000000000000000037 /* en */,
+				A00200000000000000000038 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A00200000000000000000051 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00200000000000000000052 /* en */,
+				A00200000000000000000053 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000003 /* StayEntity.swift */,
+				A00200000000000000000033 /* MovementPointEntity.swift */,
+				A00200000000000000000004 /* PlaceAliasEntity.swift */,
+				A00200000000000000000005 /* ExportRecordEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000004 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000006 /* CoreMapping.swift */,
+				A00200000000000000000007 /* DateSupport.swift */,
+				A00200000000000000000008 /* LocationFormatter.swift */,
+				A00200000000000000000032 /* AppDataProtection.swift */,
+				A00200000000000000000026 /* StayResolution.swift */,
+				A00200000000000000000039 /* AppLanguage.swift */,
+				A00200000000000000000056 /* SilicaNotionIntegration.swift */,
+				A00200000000000000000059 /* SilicaNotificationService.swift */,
+				A00200000000000000000062 /* MapEdgeZoom.swift */,
+				A00200000000000000000063 /* PermissionStatusText.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000005 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000009 /* LocationRecorder.swift */,
+				A00200000000000000000035 /* MotionActivityStore.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000040 /* SilicaWelcomeView.swift */,
+				A00200000000000000000046 /* SWConfetti.swift */,
+				A00200000000000000000010 /* TodayView.swift */,
+				A00200000000000000000011 /* LocationMapView.swift */,
+				A00200000000000000000012 /* PlacesView.swift */,
+				A00200000000000000000013 /* ExportView.swift */,
+				A00200000000000000000014 /* SettingsView.swift */,
+				A00200000000000000000044 /* SilicaPolishedAluminum.metal */,
+				A00200000000000000000030 /* DatePickerSheet.swift */,
+				A00200000000000000000031 /* StayDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000012 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000041 /* SubscriptionManager.swift */,
+				A00200000000000000000042 /* SilicaRevenueCatPaywallView.swift */,
+				A00200000000000000000043 /* SubscriptionManagementView.swift */,
+				A00200000000000000000054 /* ShipSwiftCardStudioBackgrounds.swift */,
+				A00200000000000000000055 /* ShipSwiftCardStudioBackgrounds.metal */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000013 /* LegalDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000049 /* privacy-policy.md */,
+				A00200000000000000000057 /* privacy-policy-en.md */,
+				A00200000000000000000050 /* terms-of-use.md */,
+				A00200000000000000000058 /* terms-of-use-en.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000008 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000009 /* SilicaCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000009 /* SilicaCore */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000015 /* GeoCoordinate.swift */,
+				A00200000000000000000016 /* LocationSource.swift */,
+				A00200000000000000000017 /* PlaceConfidence.swift */,
+				A00200000000000000000018 /* StayRecord.swift */,
+				A00200000000000000000020 /* GeoDistance.swift */,
+				A00200000000000000000045 /* SubscriptionAccessPolicy.swift */,
+				A00200000000000000000034 /* MovementSummary.swift */,
+				A00200000000000000000060 /* PlaceCandidatePolicy.swift */,
+				A00200000000000000000023 /* MarkdownLocationExporter.swift */,
+			);
+			path = SilicaCore;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000025 /* Silica.app */,
+				B00200000000000000000002 /* SilicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000011 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000027 /* ExportService.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		B00400000000000000000001 /* SilicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00200000000000000000001 /* LogTimelineUITests.swift */,
+			);
+			path = SilicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXContainerItemProxy section */
+		B00C00000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00600000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00500000000000000000001;
+			remoteInfo = Silica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXNativeTarget section */
+		A00500000000000000000001 /* Silica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00900000000000000000002 /* Build configuration list for PBXNativeTarget "Silica" */;
+			buildPhases = (
+				A00700000000000000000001 /* Sources */,
+				A00300000000000000000001 /* Frameworks */,
+				A00800000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			packageProductDependencies = (
+				C00200000000000000000001 /* RevenueCat */,
+				C00200000000000000000002 /* RevenueCatUI */,
+			);
+			name = Silica;
+			productName = Silica;
+			productReference = A00200000000000000000025 /* Silica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00500000000000000000001 /* SilicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00900000000000000000001 /* Build configuration list for PBXNativeTarget "SilicaUITests" */;
+			buildPhases = (
+				B00700000000000000000001 /* Sources */,
+				B00300000000000000000001 /* Frameworks */,
+				B00800000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00D00000000000000000001 /* PBXTargetDependency */,
+			);
+			name = SilicaUITests;
+			productName = SilicaUITests;
+			productReference = B00200000000000000000002 /* SilicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00600000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A00500000000000000000001 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					B00500000000000000000001 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A00500000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A00900000000000000000001 /* Build configuration list for PBXProject "Silica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = A00400000000000000000001;
+			productRefGroup = A00400000000000000000010 /* Products */;
+			packageReferences = (
+				C00100000000000000000001 /* purchases-ios-spm */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00500000000000000000001 /* Silica */,
+				B00500000000000000000001 /* SilicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00800000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000028 /* LaunchScreen.storyboard in Resources */,
+				A00100000000000000000029 /* Assets.xcassets in Resources */,
+				A00100000000000000000036 /* Localizable.strings in Resources */,
+				A00100000000000000000051 /* InfoPlist.strings in Resources */,
+				A00100000000000000000049 /* privacy-policy.md in Resources */,
+				A00100000000000000000057 /* privacy-policy-en.md in Resources */,
+				A00100000000000000000050 /* terms-of-use.md in Resources */,
+				A00100000000000000000058 /* terms-of-use-en.md in Resources */,
+				A00100000000000000000061 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00800000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00700000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000001 /* SilicaApp.swift in Sources */,
+				A00100000000000000000002 /* RootView.swift in Sources */,
+				A00100000000000000000003 /* StayEntity.swift in Sources */,
+				A00100000000000000000033 /* MovementPointEntity.swift in Sources */,
+				A00100000000000000000004 /* PlaceAliasEntity.swift in Sources */,
+				A00100000000000000000005 /* ExportRecordEntity.swift in Sources */,
+				A00100000000000000000006 /* CoreMapping.swift in Sources */,
+				A00100000000000000000007 /* DateSupport.swift in Sources */,
+				A00100000000000000000008 /* LocationFormatter.swift in Sources */,
+				A00100000000000000000032 /* AppDataProtection.swift in Sources */,
+				A00100000000000000000026 /* StayResolution.swift in Sources */,
+				A00100000000000000000027 /* ExportService.swift in Sources */,
+				A00100000000000000000009 /* LocationRecorder.swift in Sources */,
+				A00100000000000000000035 /* MotionActivityStore.swift in Sources */,
+				A00100000000000000000037 /* AppLanguage.swift in Sources */,
+				A00100000000000000000010 /* TodayView.swift in Sources */,
+				A00100000000000000000011 /* LocationMapView.swift in Sources */,
+				A00100000000000000000012 /* PlacesView.swift in Sources */,
+				A00100000000000000000013 /* ExportView.swift in Sources */,
+				A00100000000000000000014 /* SettingsView.swift in Sources */,
+				A00100000000000000000046 /* SilicaPolishedAluminum.metal in Sources */,
+				A00100000000000000000040 /* SilicaWelcomeView.swift in Sources */,
+				A00100000000000000000048 /* SWConfetti.swift in Sources */,
+				A00100000000000000000030 /* DatePickerSheet.swift in Sources */,
+				A00100000000000000000031 /* StayDetailView.swift in Sources */,
+				A00100000000000000000015 /* GeoCoordinate.swift in Sources */,
+				A00100000000000000000016 /* LocationSource.swift in Sources */,
+				A00100000000000000000017 /* PlaceConfidence.swift in Sources */,
+				A00100000000000000000018 /* StayRecord.swift in Sources */,
+				A00100000000000000000020 /* GeoDistance.swift in Sources */,
+				A00100000000000000000047 /* SubscriptionAccessPolicy.swift in Sources */,
+				A00100000000000000000034 /* MovementSummary.swift in Sources */,
+				A00100000000000000000060 /* PlaceCandidatePolicy.swift in Sources */,
+				A00100000000000000000023 /* MarkdownLocationExporter.swift in Sources */,
+				A00100000000000000000043 /* SubscriptionManager.swift in Sources */,
+				A00100000000000000000044 /* SilicaRevenueCatPaywallView.swift in Sources */,
+				A00100000000000000000045 /* SubscriptionManagementView.swift in Sources */,
+				A00100000000000000000052 /* ShipSwiftCardStudioBackgrounds.swift in Sources */,
+				A00100000000000000000053 /* ShipSwiftCardStudioBackgrounds.metal in Sources */,
+				A00100000000000000000056 /* SilicaNotionIntegration.swift in Sources */,
+				A00100000000000000000059 /* SilicaNotificationService.swift in Sources */,
+				A00100000000000000000062 /* MapEdgeZoom.swift in Sources */,
+				A00100000000000000000063 /* PermissionStatusText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00700000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00100000000000000000001 /* LogTimelineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00D00000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00500000000000000000001 /* Silica */;
+			targetProxy = B00C00000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C00100000000000000000001 /* purchases-ios-spm */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.27.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C00200000000000000000001 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C00100000000000000000001 /* purchases-ios-spm */;
+			productName = RevenueCat;
+		};
+		C00200000000000000000002 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C00100000000000000000001 /* purchases-ios-spm */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A01000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A01000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01000000000000000000005 /* OnboardingPreview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG SILICA_ONBOARDING_PREVIEW";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = OnboardingPreview;
+		};
+		A01000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = ZJZ8627852;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SilicaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimakitaketo.silica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SILICA_APP_DISPLAY_NAME = Silica;
+				SILICA_URL_SCHEME = silica;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A01000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = ZJZ8627852;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SilicaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SILICA_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SILICA_APP_DISPLAY_NAME = Silica;
+				SILICA_BUNDLE_IDENTIFIER = com.fujimakitaketo.silica;
+				SILICA_URL_SCHEME = silica;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A01000000000000000000006 /* OnboardingPreview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = ZJZ8627852;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SilicaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimakitaketo.silica.onboarding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SILICA_APP_DISPLAY_NAME = "Silicaオンボ";
+				SILICA_URL_SCHEME = silica-onboarding;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = OnboardingPreview;
+		};
+		B01000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJZ8627852;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimakitaketo.silica.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Silica;
+			};
+			name = Debug;
+		};
+		B01000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJZ8627852;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujimakitaketo.silica.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Silica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00900000000000000000001 /* Build configuration list for PBXProject "Silica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01000000000000000000001 /* Debug */,
+				A01000000000000000000002 /* Release */,
+				A01000000000000000000005 /* OnboardingPreview */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00900000000000000000002 /* Build configuration list for PBXNativeTarget "Silica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01000000000000000000003 /* Debug */,
+				A01000000000000000000004 /* Release */,
+				A01000000000000000000006 /* OnboardingPreview */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00900000000000000000001 /* Build configuration list for PBXNativeTarget "SilicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01000000000000000000001 /* Debug */,
+				B01000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00600000000000000000001 /* Project object */;
+}
